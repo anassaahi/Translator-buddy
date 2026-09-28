@@ -1,0 +1,23 @@
+[
+  {
+    "id": "3a6b08a8-25ae-48eb-b35c-a8f099ea5795",
+    "original_word": "معمولی",
+    "flagged_translation": "معمولی",
+    "corrected_translation": "چھوٹی",
+    "full_original": "\"I want to attempt a thing like that and am frightened by these trifles,\"\n\n",
+    "full_translation": "میں ایسا کام کرنے کا ارادہ رکھتا ہوں اور ان معمولی باتوں سے گھبرا رہا ہوں،",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T11:44:32.474321"
+  },
+  {
+    "id": "c6d7e1eb-1a84-4039-b412-89af602495a7",
+    "original_word": "جانب",
+    "flagged_translation": "جانب",
+    "corrected_translation": "طرف",
+    "full_original": "\"he set off to wuthering heights in hope to find his enemy fast asleep at his arrival\"",
+    "full_translation": "وہ اس امید کے ساتھ ودرنگ ہائٹس (Wuthering Heights) کی جانب روانہ ہوا کہ وہاں پہنچتے ہی اسے اپنا دشمن گہری نیند سویا ہوا مل جائے گا۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T17:43:32.819819",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e"
+  }
+]

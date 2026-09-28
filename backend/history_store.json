@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1790598975563",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "original": "who are you?",
+    "translation": "میں آپ کا مترجم ہوں، جو انگریزی متن کو خوبصورت اور رواں اردو میں تبدیل کرنے کے لیے یہاں موجود ہوں۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T12:36:15.563Z"
+  },
+  {
+    "id": "1790599347672",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "original": "\"he set off to wuthering heights in hope to find his enemy fast asleep at his arrival\"",
+    "translation": "وہ اس امید کے ساتھ ودرنگ ہائٹس (Wuthering Heights) کی جانب روانہ ہوا کہ وہاں پہنچتے ہی اسے اپنا دشمن گہری نیند سویا ہوا مل جائے گا۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T12:42:27.672Z"
+  },
+  {
+    "id": "1790599460845",
+    "user_id": "25dab686-783e-4f86-9c8f-ffa5d972303a",
+    "original": "\"he set off to wuthering heights in hope to find his enemy fast asleep at his arrival\"",
+    "translation": "وہ اس امید کے ساتھ ودرنگ ہائٹس (Wuthering Heights) کی جانب روانہ ہوا کہ وہاں پہنچتے ہی اسے اپنا دشمن گہری نیند میں سویا ہوا مل جائے گا۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T12:44:20.845Z"
+  },
+  {
+    "id": "1790600487131",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "original": "\"he says he is scoundrel, a unworthy, sick human but i believe he still has good in him\"",
+    "translation": "وہ کہتا ہے کہ وہ ایک بدمعاش، ایک نکما اور بیمار ذہن انسان ہے، لیکن میرا ماننا ہے کہ اس کے اندر اب بھی کچھ اچھائی باقی ہے۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T13:01:27.131Z",
+    "tokens": 422
+  },
+  {
+    "id": "1790618416990",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "original": "\"who was he to question me on my morality? he should worry about his own charachter and leave me alone.\"",
+    "translation": "وہ ہوتا کون ہے مجھ سے میرے اخلاق کے بارے میں سوال کرنے والا؟ اسے اپنے کردار کی فکر کرنی چاہیے اور مجھے میرے حال پر چھوڑ دینا چاہیے۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T18:00:16.990Z",
+    "tokens": 481
+  },
+  {
+    "id": "1790626714375",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "original": "And, when you want something, all the universe conspires in helping you to achieve it.",
+    "translation": "اور جب آپ کسی چیز کی دلی خواہش کرتے ہیں، تو پوری کائنات اسے حاصل کرنے میں آپ کی مدد کے لیے سازش کرتی ہے۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T20:18:34.375Z",
+    "tokens": 511
+  },
+  {
+    "id": "1790627219558",
+    "user_id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "original": "No heart has ever suffered when it goes in search of its dreams, because every second of the search is a second’s encounter with God and with eternity.",
+    "translation": "کوئی بھی دل اپنے خوابوں کی تلاش میں کبھی نہیں دکھ اٹھاتا، کیونکہ تلاش کا ہر لمحہ خدا اور ابدیت سے ملاقات کا ایک لمحہ ہوتا ہے۔",
+    "direction": "en-ur",
+    "timestamp": "2026-09-28T20:26:59.558Z",
+    "tokens": 520
+  }
+]

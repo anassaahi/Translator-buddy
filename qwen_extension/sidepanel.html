@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', Arial, sans-serif;
+      padding: 12px;
+      background: #eceff1;
+      color: #263238;
+    }
+
+    /* ── Header ── */
+    .tb-appbar {
+      background: #ffffff;
+      color: #000000;
+      padding: 16px 20px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.12);
+    }
+
+    .tb-header-left {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .tb-brand {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin: 0;
+      font-family: inherit;
+    }
+
+    .tb-quote {
+      font-size: 15px;
+      color: #546e7a;
+      margin-top: 2px;
+    }
+
+    .tb-portrait-img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+
+    /* ── Cards ── */
+    .tb-card {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      padding: 14px 16px;
+      margin-bottom: 12px;
+    }
+
+    .tb-card-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: #78909c;
+      margin-bottom: 8px;
+    }
+
+    /* ── Direction Container ── */
+    .tb-toggle-group {
+      display: flex;
+      background: #f1f5f9;
+      border-radius: 6px;
+      padding: 3px;
+    }
+
+    .tb-toggle-btn {
+      flex: 1;
+      padding: 7px 10px;
+      border: none;
+      background: transparent;
+      color: #64748b;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: default; /* Changed to default since it's no longer clickable */
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    .tb-toggle-btn.active {
+      background: #ffffff;
+      color: #0f172a;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* ── Text displays ── */
+    #inputText {
+      font-size: 14px;
+      color: #263238;
+      white-space: pre-wrap;
+      line-height: 1.5;
+      min-height: 50px;
+      padding: 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+    }
+
+    #outputText {
+      font-size: 14px;
+      color: #263238;
+      white-space: pre-wrap;
+      line-height: 1.5;
+      min-height: 50px;
+      padding: 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+    }
+
+    #outputText[dir="rtl"] {
+      font-size: 18px;
+      line-height: 1.8;
+      font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', Arial, sans-serif;
+    }
+
+    /* ── Status indicators ── */
+    .loading {
+      color: #546e7a;
+      font-style: italic;
+      font-size: 13px;
+      direction: ltr;
+      display: block;
+    }
+
+    .error {
+      color: #ef4444;
+      font-size: 13px;
+      direction: ltr;
+    }
+
+    .tb-placeholder {
+      color: #b0bec5;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="tb-appbar">
+    <div class="tb-header-left">
+      <h1 class="tb-brand">Translator Buddy</h1>
+      <span class="tb-quote">لفظوں کا سفر، دلوں تک</span>
+    </div>
+    <img src="joun elia.png" alt="Jaun Elia" class="tb-portrait-img" />
+  </div>
+
+  <!-- Direction Container (Fixed to English -> Urdu) -->
+  <div class="tb-card">
+    <div class="tb-card-label">Direction</div>
+    <div class="tb-toggle-group">
+      <button class="tb-toggle-btn active">English to Urdu</button>
+    </div>
+  </div>
+
+  <!-- Input -->
+  <div class="tb-card">
+    <div class="tb-card-label" id="inputLabel">HIGHLIGHTED TEXT</div>
+    <div id="inputText" dir="ltr">Highlight text on any page, right-click, and select "Translate with buddy".</div>
+  </div>
+
+  <!-- Output -->
+  <div class="tb-card">
+    <div class="tb-card-label" id="outputLabel">URDU TRANSLATION</div>
+    <div id="outputText"><span class="tb-placeholder">ترجمہ یہاں ظاہر ہوگا۔</span></div>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+
+</html>

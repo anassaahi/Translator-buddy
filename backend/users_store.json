@@ -1,0 +1,20 @@
+[
+  {
+    "id": "admin-123",
+    "username": "admin",
+    "password": "adminpassword",
+    "role": "admin"
+  },
+  {
+    "id": "4f145fc1-cacd-4844-ad61-565436ae3d0e",
+    "username": "Anas",
+    "password": "saahi",
+    "role": "user"
+  },
+  {
+    "id": "25dab686-783e-4f86-9c8f-ffa5d972303a",
+    "username": "Talha",
+    "password": "talha",
+    "role": "user"
+  }
+]

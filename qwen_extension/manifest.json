@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Translator Buddy",
+  "version": "1.0",
+  "description": "Translates highlighted PDF text into Urdu offline.",
+  "permissions": [
+    "sidePanel",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Click to open Translator Buddy"
+  }
+}
