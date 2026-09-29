@@ -400,13 +400,8 @@ Response: 200 OK
 > **Note:** These are placeholders. Replace with your own screenshots as you develop and test the application.
 
 ### Web Application Interface
-```
-[SCREENSHOT PLACEHOLDER - Main Translation Interface]
-To add a screenshot:
-1. Take a screenshot of the web application at http://localhost:3000
-2. Save as PNG file in a screenshots/ folder
-3. Replace this placeholder with: ![Main Interface](./screenshots/main-interface.png)
-```
+
+./screenshots/web_interface.png
 
 ### Browser Extension in Action
 ```
