@@ -1,6 +1,6 @@
 # Translator Buddy
 
-A powerful, full-stack translation platform that combines **AI-powered translation** (Google Gemini) with **machine learning models** (IndicTrans2) and **real-time telemetry monitoring**. Translate between English and Urdu with contextual awareness, user feedback integration, and advanced administration capabilities.
+A powerful, full-stack translation platform that combines **AI-powered translation** (Google Gemini) with **machine learning models** (IndicTrans2) and **real-time telemetry monitoring**. Translate between English and Urdu with contextual awareness, inline corrections, and comprehensive monitoring.
 
 **Live Demo:** [translatorbuddy.vercel.app](https://translatorbuddy.vercel.app)
 
@@ -397,68 +397,29 @@ Response: 200 OK
 
 ## Screenshots & Visualizations
 
-> **Note:** These are placeholders. Replace with your own screenshots as you develop and test the application.
+### Architecture Diagram
+![Architecture](./screenshots/architecture.png)
 
 ### Web Application Interface
-
-./screenshots/web_interface.png
+![Main Interface](./screenshots/web_interface.png)
 
 ### Browser Extension in Action
-```
-[SCREENSHOT PLACEHOLDER - Extension Side Panel]
-To add a screenshot:
-1. Open a PDF or article in Chrome
-2. Highlight text and right-click → "Translate with buddy"
-3. Screenshot the side panel
-4. Save and replace this placeholder: ![Extension Panel](./screenshots/extension-panel.png)
-```
+![Extension Panel](./screenshots/extension.png)
 
-### Grafana Monitoring Dashboard
-```
-[SCREENSHOT PLACEHOLDER - Grafana Interface]
-To add a screenshot:
-1. Start the monitoring stack: cd telemetry && docker-compose up -d
-2. Open Grafana: http://localhost:3001 (admin/admin)
-3. Create dashboards for:
-   - API latency and response times
-   - Error rates and exceptions
-   - Token usage per user/time
-   - Translation frequency by language pair
-4. Screenshot the dashboard and replace: ![Grafana Dashboard](./screenshots/grafana-dashboard.png)
-```
-
-### In-Line Editing & Correction
-```
-[SCREENSHOT PLACEHOLDER - Inline Correction Feature]
-To add a screenshot:
-1. Use the web app to translate text
-2. Click the "Flag" button on an incorrect word
-3. Enter the corrected translation
-4. Screenshot the modal/inline editor
-5. Replace with: ![Inline Editing](./screenshots/inline-editing.png)
-```
+### Inline Correction Feature
+![Inline Editing](./screenshots/inline.png)
 
 ### Admin Dashboard
-```
-[SCREENSHOT PLACEHOLDER - Admin Dashboard]
-To add a screenshot:
-1. Log in as admin (username: "admin", password: "adminpassword")
-2. Navigate to the Admin tab
-3. Screenshot showing user list, statistics, and feedback management
-4. Replace with: ![Admin Dashboard](./screenshots/admin-dashboard.png)
-```
+![Admin Dashboard](./screenshots/admin_dashboard.png)
+
+### Grafana Monitoring Dashboard
+![Grafana Dashboard](./screenshots/grafana.png)
+
+### Centralized Logging (Loki)
+![Loki Logs](./screenshots/logs.png)
 
 ### Test Results - BERTScore
-```
-[SCREENSHOT PLACEHOLDER - BERTScore Test Results]
-To add a screenshot:
-1. Run IndicTrans2 evaluation in Google Colab
-2. Execute: python test_translation.py
-3. Evaluate translations using BERTScore metric
-4. Screenshot showing before/after scores
-5. Include model performance metrics (F1, Precision, Recall)
-6. Replace with: ![BERTScore Results](./screenshots/bertscore-results.png)
-```
+![Test Results](./screenshots/test_results.png)
 
 ---
 
@@ -538,8 +499,6 @@ print(f"F1 Score:  {F1.mean():.4f}")
 - **F1 Score**: 0.85–0.95 (depending on domain and translation complexity)
 - **Precision**: Measures how similar generated translation is to reference
 - **Recall**: Measures how much of the reference is captured in generated translation
-
-> **Placeholder for test results:** Insert screenshots and metrics from your Colab notebook evaluation
 
 ---
 
