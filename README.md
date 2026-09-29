@@ -1,4 +1,4 @@
-# 🌍 Translator Buddy
+# Translator Buddy
 
 A powerful, full-stack translation platform that combines **AI-powered translation** (Google Gemini) with **machine learning models** (IndicTrans2) and **real-time telemetry monitoring**. Translate between English and Urdu with contextual awareness, user feedback integration, and advanced administration capabilities.
 
@@ -6,9 +6,9 @@ A powerful, full-stack translation platform that combines **AI-powered translati
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎯 Core Translation
+### Core Translation
 - **Bidirectional Translation**: English ↔ Urdu with contextual understanding
 - **AI-Powered**: Google Gemini 3.5/2.5/3.1 Flash models with intelligent fallbacks
 - **Contextual Awareness**: Optional style/context input for nuanced translations
@@ -16,26 +16,26 @@ A powerful, full-stack translation platform that combines **AI-powered translati
 - **Offline ML Alternative**: IndicTrans2 model integration for offline translation capability
 - **Token Counting**: Real-time API token usage tracking
 
-### 👥 User Management
+### User Management
 - **Authentication**: Simple user registration and login system
 - **User History**: Track translation history per user
 - **Admin Dashboard**: Monitor all users and system activity
 - **Role-Based Access**: Support for admin and regular user roles
 
-### 📝 Feedback & Learning
+### Feedback & Learning
 - **Inline Correction**: Flag incorrect translations during real-time translation
 - **Correction Memory**: System learns from user corrections and applies them to future translations
 - **Feedback Analytics**: View all corrections made across the platform
 - **Persistent Storage**: All feedback is stored and used for model improvement
 
-### 🔌 Browser Extension
+### Browser Extension
 - **Chrome/Edge Compatible**: Install as a browser extension for on-demand translation
 - **PDF Support**: Translate selected text from PDFs and web content
 - **Right-Click Menu**: Quick translate option via context menu
 - **Side Panel Interface**: Lightweight translation panel in the browser sidebar
 - **Smart Context Extraction**: Automatically captures page title and surrounding text for disambiguation
 
-### 📊 Monitoring & Analytics
+### Monitoring & Analytics
 - **Prometheus Metrics**: Comprehensive API instrumentation
 - **Grafana Dashboards**: Real-time visualization of system performance
 - **Loki Logs**: Centralized log aggregation and analysis
@@ -43,7 +43,7 @@ A powerful, full-stack translation platform that combines **AI-powered translati
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Project Structure
 
@@ -101,7 +101,7 @@ Translator-buddy/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js 18+** (for frontend)
@@ -112,13 +112,13 @@ Translator-buddy/
 
 ### Installation & Setup
 
-#### 1️⃣ Clone the Repository
+#### Clone the Repository
 ```bash
 git clone https://github.com/anassaahi/Translator-buddy.git
 cd Translator-buddy
 ```
 
-#### 2️⃣ Set Up Backend (FastAPI)
+#### Set Up Backend (FastAPI)
 ```bash
 cd backend
 
@@ -139,7 +139,7 @@ python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 Backend will be available at `http://localhost:8000`
 API docs: `http://localhost:8000/docs`
 
-#### 3️⃣ Set Up Frontend (Next.js)
+#### Set Up Frontend (Next.js)
 ```bash
 cd ../frontend
 
@@ -152,7 +152,7 @@ npm run dev
 
 Frontend will be available at `http://localhost:3000`
 
-#### 4️⃣ [Optional] Set Up Browser Extension
+#### [Optional] Set Up Browser Extension
 ```bash
 cd ../qwen_extension
 
@@ -167,7 +167,7 @@ cd ../qwen_extension
 # - Right-clicking selected text → "Translate with buddy"
 ```
 
-#### 5️⃣ [Optional] Set Up Monitoring Stack
+#### [Optional] Set Up Monitoring Stack
 ```bash
 cd ../telemetry
 
@@ -182,7 +182,7 @@ docker-compose up -d
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -346,7 +346,7 @@ Response: 200 OK
 
 ---
 
-## 🎮 Usage Examples
+## Usage Examples
 
 ### Web Application
 
@@ -395,7 +395,7 @@ Response: 200 OK
 
 ---
 
-## 📊 Screenshots & Visualizations
+## Screenshots & Visualizations
 
 > **Note:** These are placeholders. Replace with your own screenshots as you develop and test the application.
 
@@ -467,7 +467,7 @@ To add a screenshot:
 
 ---
 
-## 🔬 Model Testing & Evaluation
+## Model Testing & Evaluation
 
 ### IndicTrans2 Model (Offline Translation)
 
@@ -548,7 +548,7 @@ print(f"F1 Score:  {F1.mean():.4f}")
 
 ---
 
-## 📁 Configuration Files
+## Configuration Files
 
 ### Google Gemini API Setup
 Edit `backend/main.py` line 12:
@@ -582,7 +582,7 @@ BACKEND_HOST=0.0.0.0
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Backend API Testing
 ```bash
@@ -612,7 +612,7 @@ python test_translation.py
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -626,7 +626,7 @@ python test_translation.py
 
 ---
 
-## 🚨 Known Limitations
+## Known Limitations
 
 1. **Local JSON Storage**: For production, replace with a proper database (PostgreSQL, MongoDB)
 2. **Authentication**: Currently password is stored in plain text; use hashing (bcrypt) in production
@@ -637,7 +637,7 @@ python test_translation.py
 
 ---
 
-## 🔐 Security Notes
+## Security Notes
 
 ⚠️ **This is a proof-of-concept/demo application.** For production:
 
@@ -654,7 +654,7 @@ python test_translation.py
 
 ---
 
-## 📈 Performance Optimization
+## Performance Optimization
 
 ### Frontend
 - Next.js automatic code splitting
@@ -675,7 +675,7 @@ python test_translation.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -687,13 +687,13 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📝 License
+## License
 
 This project is open source and available under the **MIT License**.
 
 ---
 
-## 📞 Support
+## Support
 
 For issues, questions, or feature requests:
 - Open an issue on [GitHub Issues](https://github.com/anassaahi/Translator-buddy/issues)
@@ -701,7 +701,7 @@ For issues, questions, or feature requests:
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
 - [ ] Database integration (PostgreSQL/MongoDB)
 - [ ] Advanced authentication (JWT, OAuth2)
